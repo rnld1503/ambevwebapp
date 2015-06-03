@@ -33,7 +33,7 @@
 			</tr>
 			<tr>
 				<td colspan="2" align="center"> 
-					<a href="page/index.html">enviar</a>>
+					<a href="<%=request.getContextPath() %>/page/index.jsp">enviar</a>>
 				</td>
 			</tr>
 		</tbody>
