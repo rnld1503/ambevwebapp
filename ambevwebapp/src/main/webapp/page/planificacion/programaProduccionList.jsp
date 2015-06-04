@@ -16,51 +16,65 @@
 				<td height="20">
 					<div> <font size="3">Listado de Programa de Producci&oacute;n</font> </div>
 				</td>
-					</tr>
+			</tr>
 					
-					<tr>
-						<td height="20">
-							<div><a href="programaProduccion.jsp">Nuevo (+)</a></div>
-						</td>
-					</tr>
-					
-					<tr>
-						<td height="520" valign="top">
-							
-							<table id="grid-basic" class="table table-condensed table-hover table-striped" width="780">
-							    <thead>
-				        <tr>
-				            <th data-column-id="id" data-type="numeric">Producto</th>
-				            <th data-column-id="medida">Medida</th>
-				            <th data-column-id="cantidadProducir">Cantidad a Producir</th>
-				            <th data-column-id="dias">Dias a Trabajar</th>
-				            <th data-column-id="fecha">Fecha Programa</th>
-				            <th data-column-id="link" data-formatter="link">Editar</th>
-				        </tr>
-				    </thead>
-				    <tbody>
-				        <tr>
-				            <td>Cerveza</td>
-				            <td>650</td>
-				            <td>maquina 1</td>
-				            <td>si</td>
-				        </tr>
-				        <tr>
-				            <td>Gaseosa</td>
-				            <td>1500</td>
-				            <td>maquina 2</td>
-				            <td>si</td>
-				        </tr>
-				        <tr>
-				            <td>Cerveza</td>
-				            <td>650</td>
-				            <td>maquina 1</td>
-				            <td>No</td>
-				        </tr>
-				    </tbody>
+				<tr>
+					<td height="20">
+						<div><a href="programaProduccion.jsp">Nuevo (+)</a></div>
+					</td>
+				</tr>
+				
+				<tr>
+					<td height="520" valign="top">
+						
+						<table id="grid-basic" class="table table-condensed table-hover table-striped" width="780">
+						    <thead>
+						        <tr>
+						            <th data-column-id="id" data-type="numeric">Producto</th>
+						            <th data-column-id="medida">Medida</th>
+						            <th data-column-id="cantidadProducir">Cantidad a Producir</th>
+						            <th data-column-id="dias">Dias a Trabajar</th>
+						            <th data-column-id="fecha">Fecha Programa</th>
+						            <th data-column-id="link" data-formatter="link">Editar</th>
+						        </tr>
+						    </thead>
+						    <tbody>
+						        <tr>
+						        	
+						            <td>Cerveza</td>
+						            <td>650</td>
+						            <td>100000</td>
+						            <td>7</td>
+						            <td>15/06/2015</td>
+						            <td><a href="programaProduccion.jsp">Editar</a></td>
+						        </tr>
+						        <tr>
+						            <td>Cerveza</td>
+						            <td>650</td>
+						            <td>100000</td>
+						            <td>7</td>
+						            <td>15/06/2015</td>
+						            <td><a href="programaProduccion.jsp">Editar</a></td>
+						        </tr>
+						        <tr>
+						            <td>Cerveza</td>
+						            <td>650</td>
+						            <td>100000</td>
+						            <td>7</td>
+						            <td>15/06/2015</td>
+						            <td><a href="programaProduccion.jsp">Editar</a></td>
+						        </tr>
+						        <tr>
+						            <td>Cerveza</td>
+						            <td>650</td>
+						            <td>100000</td>
+						            <td>7</td>
+						            <td>15/06/2015</td>
+						            <td><a href="programaProduccion.jsp">Editar</a></td>
+						        </tr>
+						    </tbody>
 					</table>
 				</td>
-				
 			</tr>
 			
 			<tr>

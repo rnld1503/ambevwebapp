@@ -4,11 +4,39 @@
 
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+
+<title>Reporte 1</title>
+
 </head>
-<tiles:insertDefinition name="myapp.menu" />
 <body>
-reporte 1 
+	<tiles:insertDefinition name="myapp.menu" />
+	<div id="Grilla" align="center" >
+		<table width="780">
+			<tr>
+				<td height="20">
+					<div> <font size="3">Reporte 1</font> </div>
+				</td>
+			</tr>
+			
+			<tr>
+				<td height="20">
+					
+				</td>
+			</tr>
+			
+			<tr>
+				<td height="520" valign="top">
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<tiles:insertDefinition name="myapp.footer" />
+				</td>
+			</tr>
+		
+		</table>
+
+	</div>
 </body>
 </html>
