@@ -4,51 +4,71 @@
 
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html">
-<title>Listado de L&iacute;nea de Producci&oacute;n</title>
-
-
+<meta>
+<title>Listado de Programa de Producci&oacute;n</title>
 </head>
-<tiles:insertDefinition name="myapp.menu" />
+
 <body>
-	
-	<div>Listado de L&iacute;nea de Producci&oacute;n</div>
-
-	<div><a href="programaProduccion.jsp">Nuevo </a>></div>
-	<div id="Grilla">
-
-		<table id="grid-basic" class="table table-condensed table-hover table-striped">
-		    <thead>
-		        <tr>
-		            <th data-column-id="id" data-type="numeric">Producto</th>
-		            <th data-column-id="medida">Medida</th>
-		            <th data-column-id="cantidadProducir">Cantidad a Producir</th>
-		            <th data-column-id="dias">Dias a Trabajar</th>
-		            <th data-column-id="fecha">Fecha Programa</th>
-		            <th data-column-id="link" data-formatter="link">Editar</th>
-		        </tr>
-		    </thead>
-		    <tbody>
-		        <tr>
-		            <td>Cerveza</td>
-		            <td>650</td>
-		            <td>maquina 1</td>
-		            <td>si</td>
-		        </tr>
-		        <tr>
-		            <td>Gaseosa</td>
-		            <td>1500</td>
-		            <td>maquina 2</td>
-		            <td>si</td>
-		        </tr>
-		        <tr>
-		            <td>Cerveza</td>
-		            <td>650</td>
-		            <td>maquina 1</td>
-		            <td>No</td>
-		        </tr>
-		    </tbody>
+	<tiles:insertDefinition name="myapp.menu" />
+	<div id="Grilla" align="center" >
+		<table width="780">
+			<tr>
+				<td height="20">
+					<div> <font size="3">Listado de Programa de Producci&oacute;n</font> </div>
+				</td>
+					</tr>
+					
+					<tr>
+						<td height="20">
+							<div><a href="programaProduccion.jsp">Nuevo (+)</a></div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td height="520" valign="top">
+							
+							<table id="grid-basic" class="table table-condensed table-hover table-striped" width="780">
+							    <thead>
+				        <tr>
+				            <th data-column-id="id" data-type="numeric">Producto</th>
+				            <th data-column-id="medida">Medida</th>
+				            <th data-column-id="cantidadProducir">Cantidad a Producir</th>
+				            <th data-column-id="dias">Dias a Trabajar</th>
+				            <th data-column-id="fecha">Fecha Programa</th>
+				            <th data-column-id="link" data-formatter="link">Editar</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr>
+				            <td>Cerveza</td>
+				            <td>650</td>
+				            <td>maquina 1</td>
+				            <td>si</td>
+				        </tr>
+				        <tr>
+				            <td>Gaseosa</td>
+				            <td>1500</td>
+				            <td>maquina 2</td>
+				            <td>si</td>
+				        </tr>
+				        <tr>
+				            <td>Cerveza</td>
+				            <td>650</td>
+				            <td>maquina 1</td>
+				            <td>No</td>
+				        </tr>
+				    </tbody>
+					</table>
+				</td>
+				
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<tiles:insertDefinition name="myapp.footer" />
+				</td>
+			</tr>
+		
 		</table>
 
 	</div>
