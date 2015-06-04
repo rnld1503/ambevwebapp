@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="jquery/jquery-ui.min.css">
-<script src="jquery/external/jquery/jquery.js"></script>
-<script src="jquery/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="<%=request.getContextPath() %>/jquery/jquery-ui.min.css">
+<script src="<%=request.getContextPath() %>/jquery/external/jquery/jquery.js"></script>
+<script src="<%=request.getContextPath() %>/jquery/jquery-ui.min.js"></script>
 
 <head>
 <meta charset="UTF-8">

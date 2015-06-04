@@ -7,9 +7,11 @@
   </head>
   <body>
   <div>
-  <tiles:insertAttribute name="menu" />
+  	<tiles:insertAttribute name="menu" />
   </div>
-    <table border="1" width="100%" height="720">
+  
+  <div align="center">
+  	<table border="1" width="100%" height="720">
       <tr>
         <td colspan="1" height="50">
           <tiles:insertAttribute name="header"  />
@@ -26,5 +28,7 @@
         </td>
       </tr>
     </table>
+  </div>
+    
   </body>
 </html>
