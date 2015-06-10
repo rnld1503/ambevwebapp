@@ -10,7 +10,7 @@
         <li><a href="<%=request.getContextPath() %>/page/index.jsp">Inicio</a></li>
         <li><a href="#">Mantenimiento</a>
           <ul>
-            <li><a href="<%=request.getContextPath() %>/page/mantenimiento/productoList.jsp">Producto</a></li>
+            <li><a href="<%=request.getContextPath() %>/producto">Producto</a></li>
             <!-- <li><a href="#">Medida</a></li>
             <li><a href="#">Usuario</a></li> -->
           </ul>
